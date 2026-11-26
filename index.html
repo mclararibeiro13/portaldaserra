@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal da Serra Eventos</title>
+<meta name="description" content="Portal da Serra: espaço para casamento em Janaúba e Nova Porteirinha – MG. Salão de festas com paredes de vidro, capela, cerimônia ao ar livre, piscina e vista para a serra. Agende sua visita.">
+<meta name="keywords" content="espaço para casamento em Janaúba, sítio para eventos no Norte de Minas, salão de festas em Nova Porteirinha, espaço para casamento ao ar livre MG, mini wedding Janaúba, eventos corporativos Norte de Minas">
+<meta property="og:title" content="Portal da Serra | Espaço de eventos em Nova Porteirinha – MG">
+<meta property="og:description" content="Um espaço único em meio à natureza, onde elegância e paisagem se encontram. A 10 km de Janaúba.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EventVenue","name":"Portal da Serra","description":"Espaço de eventos em meio à natureza para casamentos, mini weddings, aniversários e eventos corporativos no Norte de Minas.","address":{"@type":"PostalAddress","addressLocality":"Nova Porteirinha","addressRegion":"MG","addressCountry":"BR"},"geo":{"@type":"GeoCoordinates","latitude":-15.7454375,"longitude":-43.2390625},"hasMap":"https://www.google.com/maps/search/?api=1&query=-15.7454375,-43.2390625","sameAs":["https://instagram.com/portaldaserra.np"],"areaServed":["Janaúba","Nova Porteirinha","Norte de Minas"],"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Salão de festas com paredes de vidro"},{"@type":"LocationFeatureSpecification","name":"Capela"},{"@type":"LocationFeatureSpecification","name":"Cerimônia ao ar livre"},{"@type":"LocationFeatureSpecification","name":"Piscina com deck"},{"@type":"LocationFeatureSpecification","name":"Área gourmet"},{"@type":"LocationFeatureSpecification","name":"Campo de futebol e quadras de areia"},{"@type":"LocationFeatureSpecification","name":"Suíte da noiva com banheiro privativo"},{"@type":"LocationFeatureSpecification","name":"Estacionamento"}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE occasion, hushed and elegant: a wedding venue at golden hour
+   IDEA a fine wedding invitation printed on the landscape itself — the serra as the letterhead
+   PICTURE full-bleed dusk scene: layered serra, the glass salon glowing, pool reflecting the sky
+   COLOUR brand green #1f3d2e dominant, off-white #f7f4ee ground, sand #d8c4a0 support, wood #9b6a43, black ink
+   TYPE Cormorant Garamond display + Montserrat text
+   LAYOUT laptop: scene fills first screen, title in the sky's quiet left corner; phone: title on top, salon centred below */
+:root{color-scheme:light dark;
+--bg:light-dark(#f7f4ee,#101a14);--ink:light-dark(#1a1d1b,#ece7dc);--soft:light-dark(#5b605c,#b9b6ac);
+--green:#1f3d2e;--green2:light-dark(#2c5440,#7fae92);--sand:#d8c4a0;--sand2:light-dark(#efe5d3,#1c2a22);
+--wood:#9b6a43;--line:light-dark(#e2dacb,#2a3a31);--card:light-dark(#fffdf9,#16231b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Montserrat,system-ui,sans-serif;overflow-x:clip}
+img,svg{max-width:100%;display:block}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.05;letter-spacing:-.01em;text-wrap:balance;margin:0}
+h2{font-size:clamp(34px,4.4vw,52px)}
+h3{font-size:30px}
+p{margin:0 0 1em;max-width:62ch}
+a{color:inherit}
+.band{padding-block:clamp(56px,8vw,112px);padding-inline:max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+.lead{font-size:17px;color:var(--soft)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:999px;font:600 15px Montserrat,sans-serif;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,color .2s}
+.btn:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible{outline:2px solid var(--sand);outline-offset:3px}
+.b-sand{background:var(--sand);color:#1a1d1b}.b-sand:hover{background:#e8d8ba}
+.b-line{border-color:rgba(247,244,238,.75);color:#f7f4ee}.b-line:hover{background:rgba(247,244,238,.14)}
+.b-green{background:var(--green);color:#f7f4ee}.b-green:hover{background:#2c5440}
+/* nav */
+nav{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;gap:20px;padding:12px max(5vw,16px);transition:background .3s}
+nav.solid{background:color-mix(in srgb,var(--green) 94%,transparent);backdrop-filter:blur(8px)}
+.logo{display:flex;align-items:center;gap:10px;color:#f7f4ee;text-decoration:none;font:600 24px "Cormorant Garamond",serif;white-space:nowrap}
+.links{display:flex;gap:22px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+.links a{color:#f7f4ee;text-decoration:none;font-size:14px;white-space:nowrap;opacity:.9}.links a:hover{opacity:1;text-decoration:underline}
+nav .btn{min-height:42px;padding:0 18px;font-size:14px}
+/* hero */
+.hero{position:relative;min-height:min(100svh,940px);display:grid;align-content:start;color:#f7f4ee;background:#16302a;overflow:hidden}
+.slides{position:absolute;inset:0}
+.hero .scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.02);transition:opacity 1.8s ease,transform 9s linear}
+.hero .scene.on{opacity:1;transform:scale(1.1)}
+.dots{position:absolute;right:max(5vw,16px);bottom:28px;display:flex;gap:10px;z-index:2}
+.dots button{width:34px;height:44px;border:0;background:none;cursor:pointer;padding:0;display:grid;align-items:center}
+.dots button::before{content:"";height:2px;background:rgba(247,244,238,.45)}
+.dots button[aria-current=true]::before{background:#d8c4a0}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,30,22,.78) 0%,rgba(14,30,22,.5) 38%,rgba(14,30,22,.1) 66%,rgba(14,30,22,.45) 100%),linear-gradient(90deg,rgba(14,30,22,.45),transparent 60%)}
+.hero .copy{position:relative;padding:clamp(120px,17vh,190px) max(5vw,16px) 0;max-width:720px}
+.hero h1{font-size:clamp(48px,7.4vw,96px);margin-bottom:18px}
+.hero p{font-size:clamp(17px,1.6vw,20px);color:#efe6d6;margin-bottom:28px}
+.hero .where{font-size:14px;color:#e9dcc3;margin:0 0 14px;letter-spacing:.02em}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.frame img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.grid .frame,.ig .frame{cursor:zoom-in}.grid .frame:hover img{transform:scale(1.03)}
+.grid.n2{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:420px}.grid.n2 .frame:nth-child(1){grid-row:auto}
+.lb{position:fixed;inset:0;z-index:40;background:rgba(10,18,13,.92);display:none;place-items:center;padding:16px}.lb.open{display:grid}.lb img{max-height:88vh;max-width:min(1200px,100%);object-fit:contain;border-radius:4px}
+.lb button{position:absolute;top:14px;right:14px;width:48px;height:48px;border-radius:50%;border:1px solid #d8c4a0;background:transparent;color:#f7f4ee;font-size:24px;cursor:pointer}
+@media(prefers-reduced-motion:reduce){.hero .scene{transition:opacity .01s;transform:none!important}html{scroll-behavior:auto}.frame img{transition:none}}
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.pillars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 32px;margin-top:8px}
+.pillars h3{font-size:24px;margin-bottom:6px;color:var(--green2)}
+.pillars p{font-size:15px;color:var(--soft);margin:0}
+.slogan{font:italic 500 clamp(26px,3vw,34px)/1.25 "Cormorant Garamond",serif;color:var(--green2);border-left:1px solid var(--sand);padding-left:22px;margin:28px 0 0}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:36px;padding-top:24px;border-top:1px solid var(--line)}
+.stats b{display:block;font:600 clamp(28px,3vw,38px)/1 "Cormorant Garamond",serif;color:var(--green2);white-space:nowrap}
+.stats span{font-size:13px;color:var(--soft)}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.vista{position:relative;min-height:clamp(380px,62vw,720px);display:grid;align-items:end;color:#f7f4ee;overflow:hidden}
+.vista img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.vista::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,30,22,.78) 0%,rgba(14,30,22,.25) 45%,transparent 70%)}
+.vcap{position:relative;z-index:1;padding:clamp(28px,5vw,64px) max(5vw,16px);max-width:760px}
+.vcap p{color:#e9e1d1;font-size:17px;margin:14px 0 0}
+.frame.soon{display:grid;place-content:center;justify-items:center;gap:6px;text-align:center;background:linear-gradient(160deg,#2c5440,#1f3d2e);color:#f1e9da}
+.soon svg{width:64px;height:64px;fill:none;stroke:#d8c4a0;stroke-width:1.4;margin-bottom:8px}
+.soon p{font:italic 500 30px "Cormorant Garamond",serif;margin:0}.soon span{font-size:13px;color:#cfc6b4}
+/* structure */
+.struct{background:var(--sand2)}
+.space{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:center;margin-top:clamp(40px,6vw,80px)}
+.space:nth-of-type(even) .frame{order:2}
+.frame{position:relative;aspect-ratio:16/10;border-radius:6px;overflow:hidden;background:var(--green)}
+.frame svg{width:100%;height:100%}
+.frame .tag{position:absolute;left:14px;bottom:12px;font-size:13px;color:#f1e9da;background:rgba(16,30,23,.55);padding:4px 10px;border-radius:99px}
+.space .num{font:italic 500 20px "Cormorant Garamond",serif;color:var(--wood)}
+.space h3{font-size:clamp(32px,3.4vw,44px);margin:4px 0 14px}
+.space ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.space li{font-size:13px;border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:var(--card)}
+/* events */
+.events{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-top:40px}
+.ev{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:26px 22px}
+.ev svg{width:38px;height:38px;stroke:var(--green2);fill:none;stroke-width:1.4;margin-bottom:16px}
+.ev h3{font-size:26px;margin-bottom:8px}
+.ev p{font-size:14px;color:var(--soft);margin:0}
+/* gallery */
+.gal-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{min-height:44px;padding:0 18px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:500 14px Montserrat,sans-serif;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--green);color:#f7f4ee;border-color:var(--green)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:220px;gap:12px;margin-top:28px}
+.grid .frame{aspect-ratio:auto;height:100%}
+.grid .frame:nth-child(1){grid-row:span 2}
+/* experience */
+.exp{background:var(--green);color:#f7f4ee}
+.exp .lead{color:#d9d2c2}
+.exp-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;margin-top:44px;border-top:1px solid rgba(216,196,160,.35)}
+.exp-grid div{padding:26px 22px 0 0}
+.exp-grid h3{font-size:26px;color:var(--sand);margin-bottom:8px}
+.exp-grid p{font-size:14px;color:#d9d2c2;margin:0}
+/* location */
+.loc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(28px,5vw,72px);align-items:center}
+.map{position:relative;min-height:400px;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:#1f3d2e}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map-fb{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:6px;text-align:center;color:#f1e9da;padding:24px;background:radial-gradient(circle at 50% 40%,#2c5440,#1f3d2e 70%)}
+.map-fb svg{width:46px;height:46px;fill:none;stroke:#d8c4a0;stroke-width:1.5}
+.map-fb p{font:600 30px "Cormorant Garamond",serif;margin:6px 0 0}.map-fb span{font-size:14px;color:#cfc6b4;margin-bottom:14px}
+/* instagram */
+.ig{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:28px}
+.ig .frame{aspect-ratio:1}
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(28px,5vw,72px);align-items:start}
+.cinfo a.row{display:flex;gap:14px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.cinfo svg{width:26px;height:26px;flex:none;stroke:var(--green2);fill:none;stroke-width:1.5}
+.cinfo small{display:block;color:var(--soft);font-size:13px}
+form{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:clamp(22px,3vw,36px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+form .full{grid-column:1/-1}
+label{display:block;font-size:14px;font-weight:500;margin-bottom:6px}
+input,select,textarea{width:100%;font:16px Montserrat,sans-serif;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-height:48px}
+textarea{min-height:110px;resize:vertical}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg label{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:99px;padding:0 16px;min-height:44px;cursor:pointer;margin:0;font-weight:500}
+.seg input{width:auto;min-height:0}
+.ok{display:none;grid-column:1/-1;background:var(--sand2);border-radius:6px;padding:16px;font-size:15px}
+.ok.show{display:block}
+.note{font-size:13px;color:var(--soft);margin-top:14px}
+footer{background:#14271d;color:#cfc8b8;font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
+footer p{max-width:70ch}
+.wa{position:fixed;right:18px;bottom:18px;z-index:30;width:60px;height:60px;border-radius:50%;background:#25a35a;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.wa svg{width:32px;height:32px;fill:#fff}
+@media(max-width:1000px){.events,.exp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.exp-grid div{padding-bottom:8px}.ig{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:820px){.links{display:none}nav .btn{margin-left:auto}.about,.space,.loc,.contact{grid-template-columns:minmax(0,1fr)}.space:nth-of-type(even) .frame{order:0}.grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:180px}}
+@media(max-width:600px){.grid.n2{grid-template-columns:minmax(0,1fr);grid-auto-rows:260px}.hero{min-height:760px}.hero .copy{padding-top:104px}.pillars,form{grid-template-columns:minmax(0,1fr)}.events{grid-template-columns:minmax(0,1fr)}.exp-grid{grid-template-columns:minmax(0,1fr)}.grid .frame:nth-child(1){grid-row:span 1}.logo span{display:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="Principal">
+  <a class="logo" href="#inicio" aria-label="Portal da Serra, início">
+    <svg width="34" height="34" viewBox="0 0 40 40" fill="none" stroke="#d8c4a0" stroke-width="1.6"><path d="M6 34V18a14 14 0 0 1 28 0v16"/><path d="M11 34l7-10 4 5 3-3 6 8"/></svg>
+    Portal da Serra<span></span>
+  </a>
+  <div class="links">
+    <a href="#sobre">O espaço</a><a href="#estrutura">Estrutura</a><a href="#eventos">Eventos</a><a href="#galeria">Galeria</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a>
+  </div>
+  <a class="btn b-sand" href="#contato" data-goal="visita">Agende uma visita</a>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="slides"><img class="scene on" src="img/hero-por-do-sol.jpg" alt="Piscina, área gourmet e salão de festas com paredes de vidro do Portal da Serra ao pôr do sol, espaço para casamento perto de Janaúba" style="object-position:55% 60%" fetchpriority="high"><img class="scene" src="img/hero-serra.jpg" alt="Área verde do Portal da Serra com vista para a serra em Nova Porteirinha – MG" style="object-position:50% 45%" loading="lazy"><img class="scene" src="img/hero-capela.jpg" alt="Cerimônia de casamento na capela do Portal da Serra, espaço para casamento em Janaúba" style="object-position:50% 60%" loading="lazy"><img class="scene" src="img/hero-salao.jpg" alt="Salão de festas com paredes de vidro e capela do Portal da Serra" style="object-position:40% 60%" loading="lazy"><img class="scene" src="img/hero-gourmet.jpg" alt="Piscina e área gourmet do Portal da Serra no fim de tarde" style="object-position:60% 70%" loading="lazy"></div>
+  <div class="shade"></div>
+  <div class="dots" id="dots" aria-label="Fotos do banner"></div>
+  <div class="copy">
+    <p class="where">Nova Porteirinha, MG, a 10 km de Janaúba</p>
+    <h1>Seu grande dia começa aqui.</h1>
+    <p>Um espaço único em meio à natureza, onde elegância e paisagem se encontram.</p>
+    <div class="ctas">
+      <a class="btn b-sand" href="#contato" data-goal="visita">Agende uma visita</a>
+      <a class="btn b-line" href="#contato" data-goal="orcamento">Solicite orçamento</a>
+    </div>
+  </div>
+</header>
+
+<section class="band" id="sobre">
+  <div class="wrap about">
+    <div>
+      <h2>Onde a serra é o cenário e o seu momento é o centro de tudo</h2>
+      <p class="lead" style="margin-top:22px">O Portal da Serra nasceu para quem deseja celebrar com elegância sem abrir mão da natureza. A arquitetura contemporânea, com linhas limpas e paredes de vidro, foi pensada para trazer a paisagem para dentro da festa: de dia, luz natural e verde por todos os lados; à noite, a serra emoldurada pelo salão iluminado.</p>
+      <p class="lead">Aqui, cada detalhe existe para que você e seus convidados vivam o dia com calma, conforto e a sensação de estar em um lugar só seu.</p>
+      <p class="slogan">Portal da Serra. Onde a natureza celebra com você.</p>
+      <div class="stats">
+        <div><b>5.000 m²</b><span>de área</span></div>
+        <div><b>300+</b><span>convidados</span></div>
+        <div><b>1 evento</b><span>por vez, sem eventos simultâneos</span></div>
+        <div><b>10 km</b><span>de Janaúba</span></div>
+      </div>
+    </div>
+    <div class="pillars">
+      <div><h3>Arquitetura e natureza</h3><p>Salão moderno, envidraçado, integrado a uma ampla área verde com vista para a serra.</p></div>
+      <div><h3>Exclusividade</h3><p>Ambientes pensados para receber o seu evento com atenção a cada etapa, da cerimônia à última música.</p></div>
+      <div><h3>Privacidade</h3><p>Um espaço reservado, longe da agitação da cidade, para celebrar com quem importa.</p></div>
+      <div><h3>Perto de tudo</h3><p>Em Nova Porteirinha, a apenas 10 km de Janaúba, com acesso fácil para convidados e fornecedores.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="vista" aria-label="Vista para a serra">
+  <img src="img/serra-nuvem.jpg" alt="Área verde ampla com vista para a serra no Portal da Serra, Nova Porteirinha – MG" loading="lazy">
+  <div class="vcap"><h2>Uma área verde ampla, com a serra como horizonte</h2><p>A paisagem do Norte de Minas emoldura cada momento, da cerimônia às fotos ao entardecer.</p></div>
+</section>
+
+<section class="band struct" id="estrutura">
+  <div class="wrap">
+    <h2>Nossa estrutura</h2>
+    <p class="lead" style="margin-top:14px">Do “sim” à festa, tudo acontece no mesmo lugar.</p>
+    <div id="spaces"></div>
+  </div>
+</section>
+
+<section class="band" id="eventos">
+  <div class="wrap">
+    <h2>Eventos que realizamos</h2>
+    <p class="lead" style="margin-top:14px">Celebrações grandes ou intimistas, de dia ou à noite, com a mesma atenção aos detalhes.</p>
+    <div class="events" id="events"></div>
+  </div>
+</section>
+
+<section class="band struct" id="galeria">
+  <div class="wrap">
+    <div class="gal-head">
+      <div><h2>Galeria</h2><p class="lead" style="margin:12px 0 0">Momentos vividos no Portal da Serra.</p></div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="band exp" id="experiencia">
+  <div class="wrap">
+    <h2>Uma experiência pensada do começo ao fim</h2>
+    <p class="lead" style="margin-top:14px">Você cuida das emoções. A estrutura cuida do resto.</p>
+    <div class="exp-grid">
+      <div><h3>Estacionamento amplo</h3><p>Vagas para todos os convidados, com chegada e saída tranquilas e seguras.</p></div>
+      <div><h3>Conforto</h3><p>Ambientes climatizados e bem equipados para receber bem, do primeiro ao último convidado.</p></div>
+      <div><h3>Privacidade total</h3><p>Espaço exclusivo, sem eventos simultâneos. O dia é inteiramente seu.</p></div>
+      <div><h3>Estrutura completa</h3><p>Cozinha industrial, geradores, salão, capela, suíte da noiva e lazer em um só endereço.</p></div>
+      <div><h3>Equipe de apoio</h3><p>Pessoas preparadas para acompanhar o seu dia e resolver cada detalhe.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="localizacao">
+  <div class="wrap loc">
+    <div>
+      <h2>Natureza a 10 minutos da cidade</h2>
+      <p class="lead" style="margin-top:18px">O Portal da Serra fica em Nova Porteirinha – MG, a apenas 10 km de Janaúba. Um trajeto curto e de fácil acesso, que leva seus convidados da cidade para a paisagem da serra em poucos minutos.</p>
+      <p class="lead" style="margin-bottom:22px">Endereço no Google Maps: <b style="color:var(--ink);white-space:nowrap">7Q36+R9</b>, Nova Porteirinha – MG</p>
+      <div class="ctas"><a class="btn b-green" href="https://www.google.com/maps/dir/?api=1&amp;destination=-15.7454375,-43.2390625" target="_blank" rel="noopener">Como chegar</a><a class="btn" style="border-color:var(--line)" href="https://www.google.com/maps/search/?api=1&amp;query=-15.7454375,-43.2390625" target="_blank" rel="noopener">Ver no mapa</a></div>
+    </div>
+    <div class="map" id="map">
+      <div class="map-fb">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <p>Portal da Serra</p><span>7Q36+R9, Nova Porteirinha – MG</span>
+        <a class="btn b-sand" href="https://www.google.com/maps/search/?api=1&amp;query=-15.7454375,-43.2390625" target="_blank" rel="noopener">Abrir no Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band struct" id="instagram">
+  <div class="wrap">
+    <div class="gal-head">
+      <div><h2>Acompanhe no Instagram</h2><p class="lead" style="margin:12px 0 0">Bastidores, montagens e celebrações reais.</p></div>
+      <a class="btn b-green" id="igBtn" href="#" target="_blank" rel="noopener">Seguir @portaldaserra.np</a>
+    </div>
+    <div class="ig" id="ig"></div>
+  </div>
+</section>
+
+<section class="band" id="contato">
+  <div class="wrap contact">
+    <div>
+      <h2>Vamos conhecer a sua história?</h2>
+      <p class="lead" style="margin-top:18px">Agende uma visita para sentir o espaço de perto ou peça um orçamento para a sua data. Respondemos pelo WhatsApp.</p>
+      <div class="cinfo">
+        <a class="row" id="waRow" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19z"/></svg><span><small>WhatsApp</small><b class="tel"></b></span></a>
+        <a class="row" id="telRow" href="#"><svg viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><span><small>Telefone</small><b class="tel"></b></span></a>
+        <a class="row" id="igRow" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg><span><small>Instagram</small><b id="igName"></b></span></a>
+      </div>
+      <p class="note">O telefone é provisório até a inclusão do número oficial.</p>
+    </div>
+    <form id="form" novalidate>
+      <div class="full seg" role="radiogroup" aria-label="Tipo de pedido">
+        <label><input type="radio" name="goal" id="g-visita" value="visita" checked> Agendar visita</label>
+        <label><input type="radio" name="goal" id="g-orc" value="orcamento"> Solicitar orçamento</label>
+      </div>
+      <div><label for="f-nome">Nome</label><input id="f-nome" required autocomplete="name"></div>
+      <div><label for="f-tel">WhatsApp</label><input id="f-tel" required type="tel" autocomplete="tel" placeholder="(38) 9 9999-9999"></div>
+      <div class="full"><label for="f-email">E-mail</label><input id="f-email" type="email" autocomplete="email"></div>
+      <div><label for="f-tipo">Tipo de evento</label><select id="f-tipo"><option>Casamento</option><option>Mini wedding</option><option>Aniversário</option><option>Evento corporativo</option><option>Confraternização</option><option>Outro</option></select></div>
+      <div><label for="f-data">Data desejada</label><input id="f-data" type="date"></div>
+      <div class="full"><label for="f-conv">Número de convidados</label><input id="f-conv" type="number" min="1" inputmode="numeric" placeholder="Ex.: 150"></div>
+      <div class="full"><label for="f-msg">Conte um pouco sobre o seu evento</label><textarea id="f-msg"></textarea></div>
+      <div class="full"><button class="btn b-green" type="submit" style="width:100%">Enviar pelo WhatsApp</button></div>
+      <div class="ok" id="ok" role="status"></div>
+    </form>
+  </div>
+</section>
+
+<footer class="band">
+  <div class="wrap">
+    <div>
+      <p style="font:600 26px 'Cormorant Garamond',serif;color:#f7f4ee;margin-bottom:8px">Portal da Serra</p>
+      <p>Espaço para casamento em Janaúba e região. Sítio para eventos no Norte de Minas, com salão de festas em Nova Porteirinha, capela e espaço para casamento ao ar livre em MG.</p>
+    </div>
+    <p>7Q36+R9, Nova Porteirinha – MG<br>A 10 km de Janaúba<br><a href="https://instagram.com/portaldaserra.np" target="_blank" rel="noopener">@portaldaserra.np</a><br>© 2026 Portal da Serra</p>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-label="Foto ampliada"><img alt=""><button type="button" aria-label="Fechar">×</button></div>
+
+<a class="wa" id="waFab" href="#" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.6.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg></a>
+
+<script>
+{
+const CFG={whats:'5538999999999',tel:'(38) 9 9999-9999',insta:'portaldaserra.np'};
+const waLink=t=>'https://wa.me/'+CFG.whats+'?text='+encodeURIComponent(t);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* hero slideshow */
+const sl=[...document.querySelectorAll('.hero .scene')],dots=document.getElementById('dots');let cur=0,timer;
+dots.innerHTML=sl.map((_,i)=>`<button type="button" aria-label="Foto ${i+1}" aria-current="${i===0}"></button>`).join('');
+const go=i=>{sl[cur].classList.remove('on');cur=(i+sl.length)%sl.length;sl[cur].loading='eager';sl[cur].classList.add('on');[...dots.children].forEach((d,j)=>d.setAttribute('aria-current',j===cur))};
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const start=()=>{clearInterval(timer);if(!reduce)timer=setInterval(()=>go(cur+1),6500)};
+dots.addEventListener('click',e=>{const b=e.target.closest('button');if(b){go([...dots.children].indexOf(b));start()}});
+start();
+
+/* google map: live embed on the real domain; card in sandboxed previews */
+const mapEl=document.getElementById('map');
+if(!/claude|anthropic/i.test(location.hostname)&&location.protocol.startsWith('http')){const f=document.createElement('iframe');f.src='https://maps.google.com/maps?q=-15.7454375,-43.2390625&z=15&output=embed';f.title='Mapa de localização do Portal da Serra';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mapEl.appendChild(f)}
+
+/* contact wiring */
+document.querySelectorAll('.tel').forEach(e=>e.textContent=CFG.tel);
+document.getElementById('igName').textContent='@'+CFG.insta;
+const igUrl='https://instagram.com/'+CFG.insta;
+['igRow','igBtn'].forEach(id=>document.getElementById(id).href=igUrl);
+document.getElementById('igBtn').textContent='Seguir @'+CFG.insta;
+const hello=waLink('Olá! Vim pelo site do Portal da Serra e gostaria de mais informações.');
+document.getElementById('waRow').href=hello;document.getElementById('waFab').href=hello;
+document.getElementById('telRow').href='tel:+'+CFG.whats;
+
+const frame=(k,alt)=>k==='suite'?`<div class="frame soon"><svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="26" rx="13" ry="17"/><path d="M18 48h28M22 48v8M42 48v8M32 9V5"/></svg><p>Suíte da noiva</p><span>Fotos do ambiente em breve</span></div>`:`<div class="frame"><img src="img/${k}.jpg" alt="${esc(alt)}" loading="lazy"></div>`;
+
+const spaces=[
+['salao-capela','Salão de festas','Fachada moderna e paredes de vidro que deixam a paisagem entrar. Durante o dia, luz natural; à noite, um salão que brilha em meio à serra.',['Paredes de vidro','Arquitetura contemporânea','Vista para a área verde']],
+['capela','Capela','Uma capela charmosa para cerimônias religiosas e intimistas, com o acolhimento que um momento tão importante merece.',['Cerimônias religiosas','Ambiente intimista']],
+['cerimonia','Cerimônia ao ar livre','O “sim” com a serra ao fundo. Estrutura preparada para altar e cadeiras em meio ao verde.',['Estrutura para altar','Cadeiras para convidados','Vista para a serra']],
+['piscina2','Piscina e área externa','Piscina elegante com deck, perfeita para eventos diurnos, recepções e fotos ao entardecer.',['Piscina','Deck','Ampla área verde']],
+['gourmet2','Área gourmet','Espaço para churrasco e confraternizações descontraídas, integrado à piscina e ao salão.',['Churrasqueira','Ideal para confraternizações']],
+['esportes','Espaços esportivos','Campo de futebol gramado e quadras de areia para eventos corporativos, confraternizações e dias de lazer.',['Campo de futebol','Quadras de areia']],
+['suite','Suíte da noiva','Um refúgio reservado para os preparativos, com banheiro privativo, para viver a expectativa com calma.',['Banheiro privativo','Privacidade nos preparativos']]
+];
+document.getElementById('spaces').innerHTML=spaces.map(([k,h,p,tags],i)=>`<article class="space">${frame(k,h+' do Portal da Serra, espaço para eventos em Nova Porteirinha – MG')}<div><span class="num">${['I','II','III','IV','V','VI','VII'][i]}</span><h3>${h}</h3><p class="lead">${p}</p><ul>${tags.map(x=>`<li>${x}</li>`).join('')}</ul></div></article>`).join('');
+
+const ico={
+ring:'<circle cx="16" cy="22" r="8"/><circle cx="26" cy="22" r="8"/><path d="M14 10l4-5 4 5"/>',
+leaf:'<path d="M8 32C8 16 18 8 32 8c0 14-8 24-24 24z"/><path d="M8 32L24 16"/>',
+cake:'<rect x="8" y="20" width="24" height="12"/><path d="M8 26h24M20 20v-6M20 9v1"/>',
+case:'<rect x="6" y="14" width="28" height="18" rx="2"/><path d="M15 14v-4h10v4M6 22h28"/>',
+glass:'<path d="M12 6h8l-1 10a3 3 0 0 1-6 0zM16 19v12M12 31h8M22 8h8l-1 10a3 3 0 0 1-6 0zM26 21v10M22 31h8"/>'
+};
+const evs=[['ring','Casamentos','A cerimônia e a festa em um só lugar, com a serra como testemunha.'],['leaf','Mini weddings','Celebrações intimistas, com poucos convidados e muito significado.'],['cake','Aniversários','Datas especiais com espaço, conforto e lazer para todas as idades.'],['case','Eventos corporativos','Encontros, treinamentos e premiações longe da rotina do escritório.'],['glass','Confraternizações','Fim de ano, encontros de família e amigos com área gourmet e lazer.']];
+document.getElementById('events').innerHTML=evs.map(([i,h,p])=>`<div class="ev"><svg viewBox="0 0 40 40">${ico[i]}</svg><h3>${h}</h3><p>${p}</p></div>`).join('');
+
+const cats={'Casamentos':['capela-cadeiras','cerimonia','capela','capela-cerimonia','cerimonia-flores','capela-fachada','salao-capela','capela-jardim'],'Eventos diurnos':['salao-piscina','piscina-luzes','jardim','piscina-deck','esportes','piscina-campo','gourmet2','capela-serra'],'Eventos noturnos':['noturno','aerea'],'Área externa':['serra-nuvem','jardim-palmeiras','piscina2','serra','aerea','piscina','jardim','esportes']};
+const tabs=document.getElementById('tabs'),grid=document.getElementById('grid');
+const show=c=>{tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',b.dataset.c===c));grid.className='grid'+(cats[c].length===2?' n2':'');grid.innerHTML=cats[c].map(k=>frame(k,c+' no Portal da Serra, sítio para eventos no Norte de Minas')).join('')};
+tabs.innerHTML=Object.keys(cats).map(c=>`<button role="tab" data-c="${c}">${c}</button>`).join('');
+tabs.addEventListener('click',e=>{const b=e.target.closest('button');if(b)show(b.dataset.c)});
+show('Casamentos');
+
+document.getElementById('ig').innerHTML=['capela','serra-nuvem','cerimonia','piscina-luzes','salao-capela','cerimonia-flores'].map(k=>frame(k,'Portal da Serra no Instagram')).join('');
+/* lightbox */
+const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+const close=()=>lb.classList.remove('open');
+document.addEventListener('click',e=>{const f=e.target.closest('.grid .frame,.ig .frame,.space .frame');if(f&&f.querySelector('img')){const im=f.querySelector('img');lbi.src=im.src;lbi.alt=im.alt;lb.classList.add('open')}else if(e.target===lb||e.target.closest('.lb button'))close()});
+addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+
+/* CTA buttons preselect the form */
+document.querySelectorAll('[data-goal]').forEach(a=>a.addEventListener('click',()=>{document.getElementById(a.dataset.goal==='visita'?'g-visita':'g-orc').checked=true}));
+
+/* nav background */
+const nav=document.getElementById('nav');const onS=()=>nav.classList.toggle('solid',scrollY>60);addEventListener('scroll',onS,{passive:true});onS();
+
+/* form -> WhatsApp message */
+document.getElementById('form').addEventListener('submit',e=>{
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value.trim();
+  const ok=document.getElementById('ok');
+  if(!v('f-nome')||!v('f-tel')){ok.className='ok show';ok.textContent='Preencha seu nome e WhatsApp para continuarmos.';return}
+  const goal=document.querySelector('[name=goal]:checked').value==='visita'?'agendar uma visita':'solicitar um orçamento';
+  const d=v('f-data')?new Date(v('f-data')+'T12:00').toLocaleDateString('pt-BR'):'a definir';
+  const msg=`Olá! Sou ${v('f-nome')} e gostaria de ${goal} no Portal da Serra.\nEvento: ${v('f-tipo')}\nData: ${d}\nConvidados: ${v('f-conv')||'a definir'}\nWhatsApp: ${v('f-tel')}${v('f-email')?'\nE-mail: '+v('f-email'):''}${v('f-msg')?'\n'+v('f-msg'):''}`;
+  ok.className='ok show';
+  ok.innerHTML=`Tudo pronto, ${esc(v('f-nome').split(' ')[0])}! Toque abaixo para enviar a mensagem pelo WhatsApp.<br><a class="btn b-green" style="margin-top:12px" target="_blank" rel="noopener" href="${esc(waLink(msg))}">Abrir WhatsApp</a>`;
+});
+}
+</script>
+</body>
+</html>
